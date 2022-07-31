@@ -11,7 +11,7 @@ const Products = ({ type = "all", sortBy = "DEFAULT" }) => {
     return itemsData
       .filter((item) => {
         if (type !== "all") {
-          console.log(item);
+          //console.log(item);
           return item.type === type;
         } else {
           return true;

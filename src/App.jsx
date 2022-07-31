@@ -47,10 +47,10 @@ const App = () => {
         totalQuantity,
         wishList,
       }).then(() => {
-        console.log("updated");
+        //console.log("updated");
       });
     } else if (initUser && !user.user) {
-      console.log("update local storage");
+      //console.log("update local storage");
       const serializedState = JSON.stringify({
         listItems,
         totalQuantity,
