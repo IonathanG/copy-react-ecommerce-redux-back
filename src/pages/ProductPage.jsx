@@ -126,7 +126,7 @@ const ProductPage = () => {
                     color: colorSelected,
                     size: sizeSelected,
                     id: parseInt(id),
-                    modelID: `${id + "-" + sizeSelected + "-" + colorSelected}`,
+                    modelID: `${id}-${sizeSelected}-${colorSelected}`,
                   })
                 )
               }
