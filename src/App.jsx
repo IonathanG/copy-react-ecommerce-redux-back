@@ -24,7 +24,7 @@ const App = () => {
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   const listItems = useSelector((state) => state.cart.listItems);
   const wishList = useSelector((state) => state.cart.wishList);
-  const initUser = useSelector((state) => state.cart.wishList);
+  const initUser = useSelector((state) => state.cart.initUser);
 
   // fetch initial firestore data for user
   // fetch initial local storage data for guest
